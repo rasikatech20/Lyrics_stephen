@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    background-image:url(images/background2.png)
+}
+.male{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+}
+.female{
+    color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: italic;
+}
+h1{
+    color:white;
+    margin: auto;
+    border-style: dashed;
+    border-radius: 50px;
+    text-shadow: 2px 3px 7px red, 2px 3px 7px blueviolet;
+}
+h3{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 3px 7px blue;
+}

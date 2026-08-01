@@ -1,0 +1,46 @@
+#box{
+    width:250px;
+    height:250px;
+    background-color: red;
+    font-size: 2em;
+    text-align: center;
+    animation-name: slideup;
+    animation-duration:5s;
+    /* animation-name: colorchange;
+    animation: duration 2px; */
+}
+@keyframes slideright{
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+
+}
+@keyframes slideup{
+    0% {
+        transform: translateY(400px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+
+}
+@keyframes colorchange{
+    0% {
+        background-color: pink;
+    }
+    100% {
+        background-color: lightblue;
+    }
+}
+body{
+    background-color: rgb(234, 136, 181);
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+#head{
+    font-weight: bold;
+}
